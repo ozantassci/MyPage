@@ -1,0 +1,76 @@
+ul {
+  counter-reset: li;
+  list-style: none;
+  *list-style: decimal;
+  padding: 0;
+  margin-bottom: 2em;
+ 
+}
+.rounded-list{
+    margin: 10px;
+    width: 450px;
+
+
+}
+ul ul {
+  margin: 0 0 0 2.5em;
+}
+
+.rounded-list a {
+  position: relative;
+  display: flex;
+  padding: 0.4em 0.4em 0.4em 2em;
+  *padding: 0.4em;
+  margin: 0.5em 0;
+  background: #444;
+  color: #efefef;
+  text-decoration: none;
+  -moz-border-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  border-radius: 0.3em;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.rounded-list a:hover {
+  background: #222;
+  color: #4ca1af;
+}
+
+.rounded-list a:hover:before {
+  background: white;
+}
+
+.rounded-list a:before {
+  content: "";
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: white;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  
+
+  font-weight: bold;
+  -moz-border-radius: 4em;
+  -webkit-border-radius: 4em;
+  border-radius: 4em;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+
+.img-block {
+  padding-right: 150px;
+  float:right;
+  
+
+}

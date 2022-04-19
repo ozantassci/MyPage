@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #444;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #E8630A;
+  color: white;
+}
+
+.container2 {
+  border-radius: 35px;
+  border-style: double;
+  padding: 20px;
+  width: 50%;
+  border-color: white;
+  color: #444;
+}
+
+.contactresim {
+  position:relative ;
+  left: 650px;
+  top: -380px;
+  
+  
+  
+  
+}
